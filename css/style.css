@@ -1,0 +1,548 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, sans-serif;
+}
+/* Top nav bar */
+header{
+    background:#2E8B57;
+    color:white;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:15px 40px;
+}
+
+nav a{
+    color:white;
+    text-decoration:none;
+    margin-left:20px;
+    font-size:16px;
+}
+
+nav a:hover{
+    text-decoration:underline;
+}
+
+/*..............*/
+
+/*One platform for every student section */
+
+.hero{
+    background-color:#EAF8EF;
+    text-align:center;
+    padding:60px 20px;
+}
+
+.hero h1{
+    color:#2E8B57;
+    font-size:36px;
+    margin-bottom:15px;
+}
+
+.hero p{
+    color:#333333;
+    font-size:18px;
+    margin-bottom:25px;
+}
+
+.hero button{
+    background-color:#2E8B57;
+    color:white;
+    border:none;
+    padding:12px 25px;
+    font-size:16px;
+    border-radius:5px;
+    cursor:pointer;
+}
+
+.hero button:hover{
+    background-color:#246B45;
+}
+.btn{
+    background:#2E8B57;
+    color:white;
+    text-decoration:none;
+    padding:5px 5px 4px 3px;
+    border-radius:5px;
+    display:inline-block;
+}
+
+.btn:hover{
+    background:#246B45;
+}
+/*............*/
+
+
+/* Campus Features Section */
+
+.features{
+    padding:50px 20px;
+    text-align:center;
+}
+
+.features h2{
+    color:#2E8B57;
+    margin-bottom:30px;
+}
+
+.cards{
+    display:flex;
+    justify-content:center;
+    gap:20px;
+    flex-wrap:wrap;
+}
+
+.card{
+    width:220px;
+    background:white;
+    border:1px solid #2E8B57;
+    border-radius:8px;
+    padding:20px;
+}
+
+.card h3{
+    color:#2E8B57;
+    margin-bottom:10px;
+}
+
+.card p{
+    color:#555;
+    font-size:14px;
+}
+
+/*.................*/
+
+/* Footer section */
+
+footer{
+    background:#2E8B57;
+    color:white;
+    text-align:center;
+    padding:25px;
+    margin-top:40px;
+}
+
+footer h3{
+    margin-bottom:10px;
+}
+
+footer p{
+    margin:5px 0;
+    font-size:14px;
+}
+
+/*..........*/
+
+/* Login Page section */
+
+.login{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    height:90vh;
+    background:#EAF8EF;
+}
+
+.login-box{
+    width:350px;
+    background:white;
+    padding:30px;
+    border-radius:8px;
+    border:1px solid #2E8B57;
+}
+
+.login-box h2{
+    text-align:center;
+    color:#2E8B57;
+    margin-bottom:20px;
+}
+
+.login-box label{
+    display:block;
+    margin-top:10px;
+    margin-bottom:5px;
+}
+
+.login-box input{
+    width:100%;
+    padding:10px;
+    border:1px solid #cccccc;
+    border-radius:5px;
+    margin-bottom:15px;
+}
+
+.login-box button{
+    width:100%;
+    padding:10px;
+    background:#2E8B57;
+    color:white;
+    border:none;
+    border-radius:5px;
+    cursor:pointer;
+}
+
+.login-box button:hover{
+    background:#246B45;
+}
+
+.login-box p{
+    text-align:center;
+    margin-top:15px;
+}
+
+/*...................*/
+
+
+
+
+/* Register Page  section*/
+
+.register{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    padding:50px 20px;
+    background:#EAF8EF;
+}
+
+.register-box{
+    width:400px;
+    background:white;
+    padding:30px;
+    border-radius:8px;
+    border:1px solid #2E8B57;
+}
+
+.register-box h2{
+    text-align:center;
+    color:#2E8B57;
+    margin-bottom:20px;
+}
+
+.register-box label{
+    display:block;
+    margin-top:10px;
+    margin-bottom:5px;
+}
+
+.register-box input{
+    width:100%;
+    padding:10px;
+    border:1px solid #cccccc;
+    border-radius:5px;
+    margin-bottom:15px;
+}
+
+.register-box button{
+    width:100%;
+    padding:10px;
+    background:#2E8B57;
+    color:white;
+    border:none;
+    border-radius:5px;
+    cursor:pointer;
+}
+
+.register-box button:hover{
+    background:#246B45;
+}
+
+.register-box p{
+    text-align:center;
+    margin-top:15px;
+}
+
+/*..........................*/
+
+/* Welcome Section */
+
+.welcome{
+    text-align:center;
+    padding:40px 20px;
+}
+
+.welcome h1{
+    color:#2E8B57;
+    margin-bottom:10px;
+}
+
+/* Dashboard section */
+
+.dashboard{
+    display:flex;
+    justify-content:center;
+    gap:20px;
+    flex-wrap:wrap;
+    padding:20px;
+}
+
+.dash-card{
+    width:230px;
+    padding:20px;
+    border:1px solid #2E8B57;
+    border-radius:8px;
+    background:white;
+    text-align:center;
+}
+
+.dash-card h3{
+    color:#2E8B57;
+    margin-bottom:10px;
+}
+
+.card{
+    text-decoration:none;
+    color:black;
+}
+.card:hover{
+    background:#EAF8EF;
+}
+/*.....................................*/
+
+
+/* Events Section */
+
+.events{
+    padding:40px;
+    background:#EAF8EF;
+}
+
+.events h1{
+    color:#2E8B57;
+    text-align:center;
+}
+
+.events p{
+    text-align:center;
+    margin-bottom:20px;
+}
+
+.event-card{
+    background:white;
+    border:1px solid #2E8B57;
+    border-radius:8px;
+    padding:20px;
+    margin:20px auto;
+    width:350px;
+}
+
+.event-card h3{
+    color:#2E8B57;
+}
+
+.event-card button{
+    
+    background:#2E8B57;
+    color:white;
+    border:none;
+    padding:10px 20px;
+    border-radius:5px;
+    cursor:pointer;
+}
+
+
+/*........................................*/
+
+
+/* Books Exchange section*/
+
+.books{
+    padding:40px;
+    background:#F5FFF7;
+    text-align:center;
+}
+
+.book-card{
+    width:320px;
+    margin:20px auto;
+    padding:30px;
+    background:white;
+    border:2px solid #2E8B57;
+    border-radius:8px;
+}
+
+.book-card h3{
+    color:#2E8B57;
+    margin-bottom:10px;
+}
+
+.book-card button{
+    background:#2E8B57;
+    color:white;
+    border:none;
+    padding:5px 9px;
+     border-radius:10px;
+    cursor:pointer;
+}
+/*.................................*/
+
+/* Internship section*/
+
+.internships{
+    padding:40px;
+    background:#EAF8EF;
+    text-align:center;
+}
+
+.internship-card{
+    width:330px;
+    margin:20px auto;
+    padding:20px;
+    background:white;
+    border:1px solid #2E8B57;
+    border-radius:8px;
+}
+
+.internship-card h3{
+    color:#2E8B57;
+    margin-bottom:10px;
+}
+
+.internship-card p{
+    margin:5px 0;
+}
+
+.internship-card button{
+    margin-top:10px;
+    background:#2E8B57;
+    color:white;
+    border:none;
+    padding:10px 20px;
+    border-radius:5px;
+    cursor:pointer;
+}
+/*....................................*/
+
+/* Lost & Found section */
+
+.lostfound{
+    padding:40px;
+    background:#F5FFF7;
+    text-align:center;
+}
+
+.lost-card{
+    width:330px;
+    margin:20px auto;
+    padding:20px;
+    background:white;
+    border:1px solid #2E8B57;
+    border-radius:8px;
+}
+
+.lost-card h3{
+    color:#2E8B57;
+    margin-bottom:10px;
+}
+
+.lost-card p{
+    margin:5px 0;
+}
+
+.lost-card button{
+    margin-top:10px;
+    background:#2E8B57;
+    color:white;
+    border:none;
+    padding:10px 20px;
+    border-radius:5px;
+    cursor:pointer;
+}
+/*............................................*/
+
+
+/* Student Profile section */
+
+.profile{
+    background:#EAF8EF;
+    padding:40px;
+    text-align:center;
+}
+
+.profile h1{
+    color:#2E8B57;
+    margin-bottom:20px;
+}
+
+.profile-card{
+    width:350px;
+    margin:auto;
+    padding:25px;
+    background:white;
+    border:1px solid #2E8B57;
+    border-radius:8px;
+}
+
+.profile-card h2{
+    color:#2E8B57;
+    margin-bottom:15px;
+}
+
+.profile-card p{
+    text-align:left;
+    margin:10px 0;
+}
+
+.profile-card button{
+    width:100%;
+    margin-top:20px;
+    padding:10px;
+    background:#2E8B57;
+    color:white;
+    border:none;
+    border-radius:5px;
+    cursor:pointer;
+}
+/*...........................................*/
+
+/* Admin Dashboard section */
+
+.admin-dashboard{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:center;
+    gap:20px;
+    padding:40px;
+    background:#EAF8EF;
+}
+
+.admin-card{
+    width:230px;
+    background:white;
+    border:1px solid #2E8B57;
+    border-radius:8px;
+    padding:20px;
+    text-align:center;
+}
+
+.admin-card h3{
+    color:#2E8B57;
+    margin-bottom:10px;
+}
+
+/*......................................*/
+
+/* Book searching section*/
+.search-box{
+    text-align:center;
+    margin:20px;
+}
+
+.search-box input{
+    width:250px;
+    padding:10px;
+    border:1px solid #2E8B57;
+    border-radius:5px;
+}
+
+.search-box button{
+    padding:10px 15px;
+    background:#2E8B57;
+    color:white;
+    border:none;
+    border-radius:5px;
+    cursor:pointer;
+}
+/*......................................*/
